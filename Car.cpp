@@ -6,7 +6,12 @@ class Car{
     int price;
     int speed;
     int seat;
+    
 };
+void  print(Car c){
+        cout<<c.name<<" "<<c.speed<<" " <<
+c.seat<<" "<<c.price<<endl;
+    }
 int main(){
     Car c1;
     c1.name="honda City";
@@ -25,6 +30,7 @@ int main(){
     c3.price=500000;
     c3.seat=8;
 
-    cout<<c3.name<<" "<<c3.speed<<" " <<
-c3.seat<<" "<<c3.price;
+   print(c1);
+   print(c3);
+   print(c3);
 }
