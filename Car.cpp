@@ -30,7 +30,7 @@ int main(){
     c3.price=500000;
     c3.seat=8;
 
-   print(c1);
-   print(c3);
-   print(c3);
+print(c1);
+print(c3);
+print(c3);
 }
