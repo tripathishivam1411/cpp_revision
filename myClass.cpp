@@ -26,11 +26,20 @@ using namespace std;
 };
 
     int main(){
+
+        
         Chai chaiOne;
         chaiOne.teaName="Black tea";
         chaiOne.serving=10;
         chaiOne.ingredients={"Water","sugar","tealeaves"};
-
         chaiOne.DisplayChaiDetails();
+
+        
+        Chai Chaitwo;
+        Chaitwo.teaName="Masala Chai";
+        Chaitwo.serving =6;
+        Chaitwo.ingredients ={"ginger", "honey", "Water","Milk"};
+        Chaitwo.DisplayChaiDetails();
+        
         return 0;
     }
